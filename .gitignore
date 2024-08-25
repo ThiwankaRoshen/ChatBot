@@ -1,0 +1,6 @@
+# Ignore virtual environment
+env/
+
+# You can also add general patterns here if needed
+*.pyc
+__pycache__/

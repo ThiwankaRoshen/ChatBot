@@ -1,0 +1,49 @@
+/* NavBar.css */
+.navbar {
+    background-color: #6fccf5; /* Dark background for the navbar */
+    padding: 10px 20px;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-logo a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar-menu {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.navbar-item a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.navbar-item a:hover {
+    text-decoration: underline;
+}
+
+.navbar-button {
+    background-color: #00ade6; /* Red color for logout button */
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin: 10px;
+}
+
+.navbar-button:hover {
+    background-color: #0068e6; /* Darker red for hover effect */
+}

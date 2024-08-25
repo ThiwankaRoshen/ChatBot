@@ -1,0 +1,60 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+.env
+
+# Django
+*.log
+db.sqlite3
+/media
+/staticfiles
+*.pot
+*.py[cod]
+*.pyo
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Python Environment
+venv/
+.env/
+.venv/
+
+# Local settings
+local_settings.py
+
+# Django migrations
+*/migrations/*.py
+*/migrations/*.pyc
+*/migrations/__pycache__/
+
+# pytest
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Cython debug symbols
+cython_debug/
+
+# Poetry
+poetry.lock
+
+# Docker
+docker-compose.override.yml
+*.env
